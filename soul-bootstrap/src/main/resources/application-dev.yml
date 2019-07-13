@@ -5,15 +5,15 @@ server:
 spring:
    application:
     name: soul-bootstrap
-   redis:
-    password: foobaredbbexONE123
-    timeout: 300000ms
-    sentinel:
-          master: mymaster
-          nodes:
-              - 192.168.1.91:26379
-              - 192.168.1.92:26379
-              - 192.168.1.93:26379
+#   redis:
+#    password: foobaredbbexONE123
+#    timeout: 300000ms
+#    sentinel:
+#          master: mymaster
+#          nodes:
+#              - 192.168.1.91:26379
+#              - 192.168.1.92:26379
+#              - 192.168.1.93:26379
    influxdb:
         url: http://localhost:8086
         username: test
